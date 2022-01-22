@@ -2,6 +2,8 @@ import React from "react";
 
 import styles from "./About.module.css";
 
+import ServicesModal from "../Components/ServicesModal/ServicesModal";
+
 import { aboutData } from "./aboutData";
 
 export const About = () => {
@@ -16,6 +18,7 @@ export const About = () => {
           </section>
         );
       })}
+      <ServicesModal />
     </main>
   );
 };

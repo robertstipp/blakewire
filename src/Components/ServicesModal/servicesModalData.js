@@ -1,0 +1,52 @@
+export const servicesModalData = [
+  {
+    id: 1,
+    name: "Striping",
+    label: "Striping",
+    text: "Most specifications limit the number of colors allowed to the 10 standard colors. Adding contrasting stripes helps identify the wires when more than 10 conductors are present. Blake Wire and Cable and add up to 3 spiral stripes to most wire insulations, including PVC, PTFE and XLPE.",
+    img: "",
+  },
+  {
+    id: 2,
+    name: "VMI",
+    label: "Vendor Managed Inventory",
+    text: "Blake Wire and Cable offers flexible VMI programs. We will customize a program to meet your requirements. You will have complete visibility of on-hand items within your facility or at ours. Through a VMI program, you experience reduced inventory carrying costs.",
+    img: "",
+  },
+  {
+    id: 3,
+    isActive: false,
+    name: "Twisting",
+    label: "Twisting",
+    text: "Combinations of two, three or four conductors can be twisted together in either a right or left lay. The length of the lay (twists per inch) is adjustable.",
+    img: "",
+  },
+  {
+    id: 4,
+    isActive: false,
+    name: "Cutting",
+    text: "Wires ranging from 32 to 8 gauge can be cut to any length from one inch to 999.99 inches in increments of .10 inch. Special equipment is also employed to cut flat material (up to 3.20” x .125”) and round material up to .375” (9mm) O.D. to any length from .020” to 999.99” in increments of .020” or 1mm. Mil-Spec can also cut heat-shrink tubing, round PVC or PTFE/FEP tubing and other types of linear materials.",
+    img: "",
+  },
+  {
+    id: 5,
+    isActive: false,
+    name: "Stripping",
+    text: "Stripping operations can be performed on both solid or stranded conductor wire from 32 to 4 AWG (4 is stranded only), with the strip length varying by the size of the wire. Fully stripped ends can range from .125” to 20” and stripped sections can be performed anywhere to facilitate splicing.s",
+    img: "",
+  },
+  {
+    id: 6,
+    isActive: false,
+    name: "Etching",
+    text: "Teflon® insulations such as PTFE, FEP, and PFA are well known for their chemical and  heat resistance, low coefficients of friction, and outstanding dielectric properties. Many of the applications for these materials require adhesion to the fluoropolymer, and this can be accomplished by etching.",
+    img: "",
+  },
+  {
+    id: 7,
+    isActive: false,
+    name: "LaserMarking",
+    text: "Blake Wire and Cable is now equipped with the proper technology to get all of your laser marking projects done. We currently have a M-100L-TT Table Top Laser Wire Marker.",
+    img: "",
+  },
+];
