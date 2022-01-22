@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+.infoCard {
+  display: flex;
+  width: 60%;
+  margin: 3% auto 0 auto;
+  border-radius: 4px;
+  background-color: rgba(230, 230, 230, 0.5);
+}
+
+.image {
+  height: 200px;
+  width: 300px;
+  border-radius: 3px;
+}
+
+.imageSection {
+  width: 40%;
+  padding: 2%;
+}
+
+.textSection {
+  padding: 3%;
+  width: 60%;
+  font-family: "Roboto", sans-serif;
+}
+
+.textLabel {
+  font-size: 1.5rem;
+  text-align: center;
+}
