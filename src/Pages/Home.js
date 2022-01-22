@@ -6,14 +6,12 @@ import styles from "./Home.module.css";
 import InfoCard from "../Components/Homepage/InfoCard";
 import { infoCardData } from "../Components/Homepage/infoCardData";
 
+const { id, name, src } = slideImages[0];
+
 export const Home = () => {
   return (
     <main>
-      <img
-        className={styles.hero}
-        src="https://www.blakewire.com/images/job_4_web_header__.jpg?crc=309824504"
-        alt="img"
-      />
+      <img className={styles.hero} src={src} alt={name} />
       <div className={styles.horizontal}></div>
       {infoCardData.map((card) => {
         const { id, img, label, text } = card;

@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&display=swap");
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+.contentContainer {
+  display: flex;
+}
+
+.leftSection {
+  width: 45%;
+}
+
+.rightSection {
+  width: 55%;
+}
+
+.pageHeader {
+  font-size: 2rem;
+  color: #3058a8;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.contactCard {
+}
+
+.contactLabel {
+  font-size: 1.5rem;
+  color: #3058a8;
+  margin-top: 2%;
+  margin-bottom: 0;
+}
+
+.contactLocation {
+  margin: 1% 0 1%;
+}
+
+p {
+  margin: 1% 0 1%;
+}
