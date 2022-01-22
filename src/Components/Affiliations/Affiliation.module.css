@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&display=swap");
+
+.container {
+  width: 80%;
+  margin: 5% auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cardTitle {
+  font-size: 2rem;
+  color: #3058a8;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.image {
+  width: 20%;
+}

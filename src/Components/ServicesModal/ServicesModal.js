@@ -3,12 +3,11 @@ import React, { useState } from "react";
 import styles from "./ServicesModal.module.css";
 
 import { servicesModalData } from "./servicesModalData";
-import ServicesNavBar from "./ServiceNavBar/ServicesNavBar";
 
 const ServicesModal = () => {
   const [value, setValue] = useState(0);
 
-  const { id, isActive, name, text, img } = servicesModalData[value];
+  const { name, text, img } = servicesModalData[value];
   return (
     <main className={styles.container}>
       <main className={styles.tabContainer}>

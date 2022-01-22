@@ -3,7 +3,9 @@ import React from "react";
 import styles from "./About.module.css";
 
 import ServicesModal from "../Components/ServicesModal/ServicesModal";
+import Affiliations from "../Components/Affiliations/Affiliations";
 
+import { affiliations } from "../Components/Affiliations/affiliationsData";
 import { aboutData } from "./aboutData";
 
 export const About = () => {
@@ -19,6 +21,7 @@ export const About = () => {
         );
       })}
       <ServicesModal />
+      <Affiliations affiliations={affiliations} />
     </main>
   );
 };
