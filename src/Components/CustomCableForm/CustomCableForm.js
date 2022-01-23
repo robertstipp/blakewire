@@ -2,6 +2,8 @@ import React, { useState } from "react";
 
 import styles from "./CustomCableForm.module.css";
 
+import { awgSelection } from "./customCableFormData";
+
 const CustomCableForm = () => {
   const [state, setState] = useState({
     name: "",
@@ -50,15 +52,30 @@ const CustomCableForm = () => {
         </div>
         <div className={styles.formControl}>
           <label htmlFor="">Phone Number</label>
-          <input type="text" name="phoneNum" />
+          <input
+            type="text"
+            name="phoneNum"
+            value={state.phoneNum}
+            onChange={handleChange}
+          />
         </div>
         <div className={styles.formControl}>
           <label htmlFor="">Company</label>
-          <input type="text" name="" />
+          <input
+            type="text"
+            name="company"
+            value={state.company}
+            onChange={handleChange}
+          />
         </div>
         <div className={styles.formControl}>
           <label htmlFor="">Email-Address</label>
-          <input type="text" name="" />
+          <input
+            type="text"
+            name="email"
+            value={state.email}
+            onChange={handleChange}
+          />
         </div>
         <h4>Cable Description</h4>
         <section className={styles.optionsBox}>

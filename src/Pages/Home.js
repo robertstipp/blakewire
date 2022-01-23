@@ -12,7 +12,9 @@ export const Home = () => {
   return (
     <main>
       {/* SlideShow */}
-      <img key={id} className={styles.hero} src={src} alt={name} />
+      <div className={styles.heroContainer}>
+        <img key={id} className={styles.hero} src={src} alt={name} />
+      </div>
       <div className={styles.horizontal}></div>
       {infoCardData.map((card) => {
         const { id, img, label, text } = card;

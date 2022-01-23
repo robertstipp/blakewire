@@ -27,3 +27,9 @@
 .navLink:hover {
   border-bottom: solid black 2px;
 }
+
+@media screen and (min-width: 800px) {
+  .linksContainer {
+    height: auto !important;
+  }
+}
