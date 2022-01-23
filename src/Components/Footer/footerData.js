@@ -30,5 +30,5 @@ export const copyright = {
 
 export const portal = {
   label: "Blakesource Portal",
-  portalUrl: "",
+  portalUrl: "https://www.blakewire.com/blakesource-portal.html",
 };

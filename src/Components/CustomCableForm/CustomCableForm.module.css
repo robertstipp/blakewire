@@ -1,0 +1,9 @@
+.cableForm {
+  width: 80%;
+  margin: auto;
+}
+
+.optionsBox {
+  display: flex;
+  flex-wrap: wrap;
+}

@@ -1,5 +1,5 @@
 import React from "react";
-import Slideshow from "../Components/Slideshow/Slideshow";
+
 import { slideImages } from "../Components/Slideshow/slideshowData";
 
 import styles from "./Home.module.css";
@@ -11,7 +11,8 @@ const { id, name, src } = slideImages[0];
 export const Home = () => {
   return (
     <main>
-      <img className={styles.hero} src={src} alt={name} />
+      {/* SlideShow */}
+      <img key={id} className={styles.hero} src={src} alt={name} />
       <div className={styles.horizontal}></div>
       {infoCardData.map((card) => {
         const { id, img, label, text } = card;

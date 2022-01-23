@@ -11,18 +11,19 @@
 .links {
   display: flex;
   margin-left: 10%;
-
   width: 80%;
 }
 
-.link {
+.navLink {
   font-size: 1rem;
   width: 20%;
   font-family: "Open Sans Condensed", sans-serif;
   padding-top: 5%;
   text-align: center;
+  text-decoration: none;
+  color: black;
 }
 
-.link:hover {
+.navLink:hover {
   border-bottom: solid black 2px;
 }

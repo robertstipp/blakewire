@@ -6,7 +6,7 @@ import styles from "./QualityModal.module.css";
 const QualityModal = () => {
   const [value, setValue] = useState(0);
 
-  const { name, text, img } = qualityModalData[value];
+  const { name, text } = qualityModalData[value];
 
   return (
     <main className={styles.container}>

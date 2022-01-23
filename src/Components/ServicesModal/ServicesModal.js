@@ -7,12 +7,12 @@ import { servicesModalData } from "./servicesModalData";
 const ServicesModal = () => {
   const [value, setValue] = useState(0);
 
-  const { name, text, img } = servicesModalData[value];
+  const { name, text } = servicesModalData[value];
   return (
     <main className={styles.container}>
       <main className={styles.tabContainer}>
         {servicesModalData.map((tab, index) => {
-          const { id, name, isActive } = tab;
+          const { id, name } = tab;
           return (
             <div
               key={id}

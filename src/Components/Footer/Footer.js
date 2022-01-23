@@ -4,7 +4,7 @@ import { socialLinks, copyright, portal } from "./footerData";
 import React from "react";
 
 const { text, year } = copyright;
-const { label, url } = portal;
+const { label, portalUrl } = portal;
 
 const Footer = () => {
   return (
@@ -13,7 +13,11 @@ const Footer = () => {
         <div className={styles.socialIcons}>
           {socialLinks.map((social) => {
             const { id, name, icon } = social;
-            return <div className={styles.icon}>{icon}</div>;
+            return (
+              <div key={id} name={name} className={styles.icon}>
+                <a href="">{icon}</a>
+              </div>
+            );
           })}
         </div>
         <div>

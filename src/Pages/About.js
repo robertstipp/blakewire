@@ -14,7 +14,7 @@ export const About = () => {
       {aboutData.map((section) => {
         const { id, name, label, text } = section;
         return (
-          <section key={id} className={styles.aboutCard}>
+          <section key={id} name={name} className={styles.aboutCard}>
             <h1 className={styles.cardTitle}>{label}</h1>
             <p className={styles.cardText}>{text}</p>
           </section>

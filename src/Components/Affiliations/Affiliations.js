@@ -6,7 +6,7 @@ const Affiliations = ({ affiliations }) => {
     <main className={styles.container}>
       {affiliations.map((item) => {
         const { id, name, img } = item;
-        return <img className={styles.image} src={img} />;
+        return <img key={id} alt={name} className={styles.image} src={img} />;
       })}
     </main>
   );
